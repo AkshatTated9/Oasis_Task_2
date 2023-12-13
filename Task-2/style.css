@@ -1,0 +1,84 @@
+.he{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    background-color: #191919;
+    
+    
+}
+
+*{
+    padding: 12px;
+    margin:5px;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-color: #191919;
+    
+}
+body{
+    border-color: yellow;
+    border-width: 15px;
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #191919;
+    border-color: yellow;
+    border-width: 15px;
+    border-color: antiquewhite;
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* .text h2{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+} */
+.text h5{
+    color: white;
+    font-size: 20px;
+    margin-left: 3px;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+.text p{
+    color: white;
+    font-size: 20px;
+    margin-left: 3px;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+.text span{
+    color:#f9004d;
+
+}
+.text p{
+    color:#fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 10px;
+    margin-bottom: 45px;
+    
+}
+.about:hover img{
+    transform: scale(0.9,0.9);
+    
+    
+}
+
